@@ -5,12 +5,11 @@ import Create from './Create';
 import BlogDetails from './BlogDetails';
 
 function App() {
-  
   return (
     <Router>
       <div className="App">
-          <Navbar />
-        <div className='content'>
+        <Navbar />
+        <div className="content">
           <Switch>
             <Route exact path="/">
               <Home />
